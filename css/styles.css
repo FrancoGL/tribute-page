@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: auto;
+    background: url("../images/anton-maksimov-juvnsky-m7kDymL2CWY-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+#title {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+#img-div {
+    width: 50%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+#image {
+    width: 100%;
+    height: auto;
+
+}
+
+#img-caption {
+    text-align: center;
+}
