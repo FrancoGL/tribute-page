@@ -5,40 +5,90 @@
     box-sizing: border-box;
 }
 
-body {
-    width: 100vw;
-    height: auto;
-    background: url("../images/anton-maksimov-juvnsky-m7kDymL2CWY-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+html {
+    font-family: 'Rajdhani', sans-serif;
 }
 
 #main {
-    width: 80%;
     margin: 0 auto;
     padding: 1rem;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: #f5f5f5;
 }
 
 
 #title {
     text-align: center;
-    margin: 0 0 1rem 0;
+    margin: 1rem 0 1rem 0;
 }
 
 #img-div {
-    width: 50%;
+    width: 90%;
     margin: 0 auto;
     padding: 1rem;
 }
 
 #image {
-    width: 100%;
+    display: block;
+    max-width: 100%;
     height: auto;
 
 }
 
 #img-caption {
     text-align: center;
+    margin: 1rem 0 0 0;
+    padding: 1rem;
+    border: 2px solid #000000;
+}
+
+#tribute-info {
+    margin: 1rem 0 0 0;
+}
+
+#tribute-info h2 {
+    margin: 1rem 0 1rem 0;
+}
+
+#tribute-info h3 {
+    margin: 0 0 1rem 0;
+}
+
+#tribute-info p {
+    margin: 0 0 0 1rem;
+}
+
+#tribute-info table {
+    margin: 0 0 1rem 0;
+}
+
+#tribute-info table th, td {
+    padding: 0.2rem 0.5rem;
+    border: 1px solid #000000;
+}
+
+#tribute-info table td:hover {
+    background: #adadad;
+    color: #fff;
+}
+
+#tribute-info a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    display: inline-block;
+    padding: 0.5rem;
+    border: 1px solid #000000;
+}
+
+#tribute-info a:link {
+    color: #000000;
+}
+
+#tribute-info a:visited {
+    color: #000;
+}
+
+#tribute-info a:hover {
+    background: #adadad;
+    color: #fff;
 }
