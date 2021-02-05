@@ -39,6 +39,7 @@ html {
     margin: 1rem 0 0 0;
     padding: 1rem;
     border: 2px solid #000000;
+    font-weight: 500;
 }
 
 #tribute-info {
@@ -55,10 +56,12 @@ html {
 
 #tribute-info p {
     margin: 0 0 0 1rem;
+    font-weight: 500;
 }
 
 #tribute-info table {
     margin: 0 0 1rem 0;
+    font-weight: 500;
 }
 
 #tribute-info table th, td {
@@ -67,7 +70,7 @@ html {
 }
 
 #tribute-info table td:hover {
-    background: #adadad;
+    background: #656565;
     color: #fff;
 }
 
@@ -89,6 +92,6 @@ html {
 }
 
 #tribute-info a:hover {
-    background: #adadad;
+    background: #656565;
     color: #fff;
 }
